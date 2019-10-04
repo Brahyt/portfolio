@@ -3,35 +3,37 @@
 <head>
     <title>Daniel Bright Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <nav role="navigation">
       <ul>
         <li class="brand">Daniel Bright</li>
-        <li>Who am I?</li>
-        <li>Tinkering</li>
-        <li>Say Hello</li>
+        <a href="#me"><li class="nav-link">Who am I?</li></a>
+        <a href="#work"><li class="nav-link">Tinkering</li></a>
+        <a href="#contact"><li class="nav-link">Say Hello</li></a>
       </ul>
     </nav>
     <main role="main">
+    <section class="hero"> 
         <header role="banner">
             <h1>Daniel Bright</h1>
-            <h3>let brahyt = `Fullstack developer and ${console.log('Enthuiast')}`</h3>
-
+            <h3>I want to grow and help build things that will make lives better!</h3>
         </header>
-
-        <section>
+    </section>
+        <section id="me">
           <h2>Who am I?</h2>
-          <img src="https://images-na.ssl-images-amazon.com/images/I/517A6GfrUmL.jpg" alt="portrate of my handsome self.">
-          <p>Hello, my name is Daniel Bright. My spirit tree is cedar, I know right? Poets and writers have pulled inspiration from this mighty tree for its strength and its eternity. It symbolizes my eternal quest for knowledge and my persistence and patience in understanding all around me.  I enjoy coding because of the expanding source of information and my need to grow and make my mark.  I have been working as a chef at some of the hottest restaurants in San Diego but have always had a passion to work with code. I have recently joined thinkful bootcamp to make the transition into becoming a junior developer.</p>
+          <img class="portrait" src="https://images-na.ssl-images-amazon.com/images/I/517A6GfrUmL.jpg" alt="portrate of my handsome self.">
+          <p>Hello, my name is Daniel Bright. My spirit tree is the cedar, I know... best tree ever, right? Poets and writers have pulled inspiration from this mighty tree for its strength and its eternity. It symbolizes my eternal quest for knowledge and my persistence and patience in understanding all around me.  I enjoy coding because of the expanding source of information and my need to grow and make a difference.  I have been working as a chef at some of the hottest restaurants in San Diego but have always had a passion to work with code. I have recently joined thinkful bootcamp to make the transition into becoming a junior developer.</p>
 
-					<p>Like a good cedar, I am flexible but persistent. I know I would make a great choice to help you build whatever you wish to.</p>
+					<p>Like a good cedar, I am flexible and persistent. I know I would make a great choice to help you build whatever you wish to.</p>
         </section>
-          <h2>Tinkering</h2>
-          <div class="js-tinkering"></div>
-        <section>
+        <section class= "clear" id="tinkering">
+          <h2 id="work">Tinkering</h2>
+          <div class="js-tinkering tinker-container"></div>
+        </section>
+        <section id="contact">
           <h2>Contact</h2>
           <div>
             <ul>
@@ -40,16 +42,6 @@
               <li>twitter</li>
               <li>email</li>
             </ul>
-          </div>
-          <div>
-            <form action="">
-              <label for="email">Email</label>
-              <input type="email" name="email">
-              <label for="name">Name</label>
-              <input type="text" name="text">
-              <label for="message">Message</label>
-              <textarea id="" name="message" cols="30" rows="10"></textarea>
-            </form>
           </div>
         </section>
     </main>

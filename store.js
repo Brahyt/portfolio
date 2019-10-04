@@ -24,18 +24,20 @@ const tinkeringStuff = [
 
 const tinkerSnippit = function(tinkerObj) {
   return `
-    <div>
+    <div class="tinker-item">
       <div>
-        <img src="${tinkerObj.preview}"
+        <img src="${tinkerObj.preview}">
       </div>
       <div>
-        <div>
+        <div class="tinker-title">
           <h4>${tinkerObj.title}</h4>
         </div>
-        <div>
-          <p>Discription: ${tinkerObj.desc}</p>
-          <a href="${tinkerObj.liveLink}"><button>Live!</button></a>
-          <a href="${tinkerObj.githubLink}"><button>Repo</button></a>
+        <div class="tinker-item-buttons">
+          <a href="${tinkerObj.liveLink}" target="_blank"><button>Live!</button></a>
+          <a href="${tinkerObj.githubLink}" target="_blank"><button>Repo</button></a>
+        </div>
+        <div class="tinker-disc">
+          <p>${tinkerObj.desc}</p>
         </div>
       </div>
     </div>
@@ -43,15 +45,16 @@ const tinkerSnippit = function(tinkerObj) {
 }
 
 const generateTinkerSnippit = function() {
-  let result = '';
+  let result = [];
   tinkeringStuff.forEach((obj) => {
-    result += tinkerSnippit(obj);
+    result.push(tinkerSnippit(obj));
   })
-  return result;
+  return result.join('');
 }
 
 const populateTinkering = function() {
   const tinkerEntry = document.querySelector('.js-tinkering')
+  console.log(tinkerEntry)
   tinkerEntry.innerHTML = generateTinkerSnippit()
 }
 

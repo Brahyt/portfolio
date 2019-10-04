@@ -1,20 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: "Open Sans",
-  sans-serif; 
+  padding: 0 5% 0 5%;
+  font-family: 'Libre Baskerville', serif;
   font-size: 20px;
   color: #444;
-  text-align: center;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 nav,
 footer {
   padding: 1% 0;
-  background-color: #aaa;
 }
 
 nav {
@@ -26,8 +30,6 @@ nav {
   text-align: left;
 }
 
-
-
 header {
   padding: 12% 0;
 }
@@ -35,14 +37,66 @@ header {
 section {
   min-height: 200px;
   padding: 6% 0;
-  background-color: #bbb;
 }
 
-section:nth-child(even) {
-  background-color: #ddd;
-}
 
 li {
   list-style-type: none;
   display: inline;
+}
+
+.clear {
+  clear: both;
+}
+
+.portrait {
+  float: left;
+  margin: 5%;
+}
+
+/***********************
+*Tinker Container Stuff*
+***********************/
+.tinker-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.tinker-item {
+  width: 300px;
+  margin: 5%;
+  border: 1px solid black;
+}
+
+
+.tinker-title {
+  padding: 0px;
+  text-align: center;
+}
+
+.tinker-title>h4 {
+  margin: 4% 0 4% 0;
+}
+
+.tinker-item-buttons {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tinker-item-buttons>button {
+  margin: 0 0 0 0;
+  margin: 2% 0 2% 0;
+}
+
+.tinker-disc {
+  margin: 0 0 0 0;
+  padding: 5% 7% 5% 7%;
+}
+
+.tinker-disc>p {
+  margin: 0;
+  font-size: 1.2rem;
 }
