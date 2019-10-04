@@ -23,6 +23,7 @@ nav {
   left: 0;
   right: 0;
   z-index: 10;
+  text-align: left;
 }
 
 
@@ -41,3 +42,7 @@ section:nth-child(even) {
   background-color: #ddd;
 }
 
+li {
+  list-style-type: none;
+  display: inline;
+}

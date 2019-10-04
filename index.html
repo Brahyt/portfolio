@@ -7,33 +7,53 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <nav role="navigation">Nav</nav>
+    <nav role="navigation">
+      <ul>
+        <li class="brand">Daniel Bright</li>
+        <li>Who am I?</li>
+        <li>Tinkering</li>
+        <li>Say Hello</li>
+      </ul>
+    </nav>
     <main role="main">
         <header role="banner">
-            <h1>Hero</h1>
+            <h1>Daniel Bright</h1>
+            <h3>let brahyt = `Fullstack developer and ${console.log('Enthuiast')}`</h3>
+
         </header>
 
         <section>
-            Section 1
-        </section>
+          <h2>Who am I?</h2>
+          <img src="https://images-na.ssl-images-amazon.com/images/I/517A6GfrUmL.jpg" alt="portrate of my handsome self.">
+          <p>Hello, my name is Daniel Bright. My spirit tree is cedar, I know right? Poets and writers have pulled inspiration from this mighty tree for its strength and its eternity. It symbolizes my eternal quest for knowledge and my persistence and patience in understanding all around me.  I enjoy coding because of the expanding source of information and my need to grow and make my mark.  I have been working as a chef at some of the hottest restaurants in San Diego but have always had a passion to work with code. I have recently joined thinkful bootcamp to make the transition into becoming a junior developer.</p>
 
-        <section>
-            Section 2
+					<p>Like a good cedar, I am flexible but persistent. I know I would make a great choice to help you build whatever you wish to.</p>
         </section>
-
+          <h2>Tinkering</h2>
+          <div class="js-tinkering"></div>
         <section>
-            Section 3
-        </section>
-
-        <section>
-            Project 3
-        </section>
-        
-        <section>
-            Section 4
+          <h2>Contact</h2>
+          <div>
+            <ul>
+              <li>github</li>
+              <li>linkedin</li>
+              <li>twitter</li>
+              <li>email</li>
+            </ul>
+          </div>
+          <div>
+            <form action="">
+              <label for="email">Email</label>
+              <input type="email" name="email">
+              <label for="name">Name</label>
+              <input type="text" name="text">
+              <label for="message">Message</label>
+              <textarea id="" name="message" cols="30" rows="10"></textarea>
+            </form>
+          </div>
         </section>
     </main>
     <footer role="content-info">Footer</footer>
-	<script type="text/javascript" src="app.js"></script>
+	<script type="module" src="app.js"></script>
 </body>
 </html>
