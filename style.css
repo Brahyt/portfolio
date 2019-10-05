@@ -48,8 +48,9 @@ header {
 }
 
 section {
+  margin: 0 auto 0 auto;
   min-height: 200px;
-  padding: 6% 0;
+  padding: 3% 0;
 }
 
 li {
@@ -111,7 +112,7 @@ a:link {
 .tinker-item {
   background-color: white;
   width: 300px;
-  margin: 5%;
+  margin: .5%;
   border: 1px solid black;
 }
 
