@@ -4,21 +4,21 @@ const tinkeringStuff = [
   liveLink: 'https://thinkful-ei-heron.github.io/bookmark-app-danielb/',
   githubLink: 'https://github.com/thinkful-ei-heron/bookmark-app-danielb',
   desc: 'Store your favorite websites and give them ratings.  This utilizes an API that holds a user’s bookmarks and utilizes appropriate CRUD functionality.',
-  preview: 'https://www.calliaweb.co.uk/wp-content/uploads/2015/10/300x200.jpg'
+  preview: './images/bookmarks.png'
   },
   {
   title: 'Quiz Hunter',
   liveLink: 'https://thinkful-ei-heron.github.io/Mike-DanielB-quiz-hunter/',
   githubLink: 'https://github.com/thinkful-ei-heron/Mike-DanielB-quiz-hunter/',
   desc: 'A single page quiz app that gives the user a test on their monster hunter knowledge.',
-  preview: 'https://www.calliaweb.co.uk/wp-content/uploads/2015/10/300x200.jpg'
+  preview: './images/qhunt.png'
   },
   {
   title: 'Chalmun\'s Cantina',
   liveLink: 'https://www.url.com',
   githubLink: 'https://github.com/hone/chalmuns-cantina',
   desc: 'An Ember.js App built to automate the AI deck for Star Wars Outer Rim board game.',
-  preview: 'https://www.calliaweb.co.uk/wp-content/uploads/2015/10/300x200.jpg'
+  preview: './images/chaul.png'
   }
 ]
 
@@ -26,7 +26,7 @@ const tinkerSnippit = function(tinkerObj) {
   return `
     <div class="tinker-item">
       <div>
-        <img src="${tinkerObj.preview}">
+        <img class="tinker-image" src="${tinkerObj.preview}">
       </div>
       <div>
         <div class="tinker-title">
