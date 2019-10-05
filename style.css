@@ -98,6 +98,15 @@ a:link {
   margin: 5%;
 }
 
+.contacts {
+ display: flex;
+ justify-content: space-around;
+}
+
+.contacts img {
+  width: 40px;
+}
+
 /***********************
 *Tinker Container Stuff*
 ***********************/
