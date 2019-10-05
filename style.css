@@ -197,5 +197,13 @@ a:link {
     margin-top: 100px;
   }
 
+  .tinker-item {
+    background-color: white;
+    width: 300px;
+    margin: 5% 0 5% 0;
+    border: 1px solid black;
+  }
+
+
 
 }
