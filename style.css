@@ -67,6 +67,7 @@ h2 {
   font-color: #2f332e;
   font-size: 3rem;
   letter-spacing: .7rem;
+  width: 60%;
 }
 
 a {
@@ -106,6 +107,15 @@ a:link {
 .contacts img {
   width: 40px;
 }
+
+#me>div {
+  margin: 0 auto 0 auto;
+  width: 48%;
+  text-align: center;
+}
+
+
+
 
 /***********************
 *Tinker Container Stuff*
