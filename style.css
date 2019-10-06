@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  padding: 0 10% 0 10%;
   font-family: 'Libre Baskerville', serif;
   font-size: 20px;
   color: #444;
@@ -48,9 +47,9 @@ header {
 }
 
 section {
-  margin: 0 auto 0 auto;
+  margin:  auto 0 auto;
   min-height: 200px;
-  padding: 3% 0;
+  padding: 3% 10%;
 }
 
 li {
@@ -86,7 +85,7 @@ a:link {
 
 .brand {
   font-size: 2rem;
-  margin-right: 30px;
+  margin: 0 auto 0 auto;
   letter-spacing: .7rem;
 }
 
@@ -112,7 +111,6 @@ a:link {
 ***********************/
 
 .tinker-container {
-
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -196,7 +194,12 @@ a:link {
   }
 
   nav ul {
-    margin-top: 3px;
+    text-align: center;
+    margin: 5px auto 0 auto;
+  }
+
+  .div {
+    margin: 0 auto 0 auto;
   }
 
   .nav-link {
@@ -215,5 +218,17 @@ a:link {
   
   section {
     text-align: center;
+  }
+
+  #contact {
+    margin: 0 auto 0 auto;
+  }
+
+  .contacts {
+    padding: 0;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
   }
 }
