@@ -95,6 +95,7 @@ a:link {
 
 .portrait {
   margin: 5%;
+  border-radius: 20px;
 }
 
 .contacts {
@@ -122,11 +123,13 @@ a:link {
   margin: .5%;
   background-color: rgba(255, 255, 255, .5);
   border: 1px solid white;
+  border-radius: 20px;
 }
 
 .tinker-image {
   width: 298px;
   height: 200px;
+  border-radius: 20px 20px 0 0;
 }
 
 
