@@ -3,21 +3,21 @@ const tinkeringStuff = [
   title: 'BookMarking App',
   liveLink: 'https://thinkful-ei-heron.github.io/bookmark-app-danielb/',
   githubLink: 'https://github.com/thinkful-ei-heron/bookmark-app-danielb',
-  desc: 'Store your favorite websites and give them ratings.  This utilizes an API that holds a user’s bookmarks and utilizes appropriate CRUD functionality.',
+  desc: 'Bookmarking App that utilizes Jquery and Javascript with communicate with an API to store and manage data in the form of a bookmark. ',
   preview: 'images/bookmarks.png'
   },
   {
   title: 'Quiz Hunter',
   liveLink: 'https://thinkful-ei-heron.github.io/Mike-DanielB-quiz-hunter/',
   githubLink: 'https://github.com/thinkful-ei-heron/Mike-DanielB-quiz-hunter/',
-  desc: 'A single page quiz app that gives the user a test on their monster hunter knowledge.',
+  desc: 'A singlepage Javascript app that utilized jquery, HTML and CSS to create a quiz app',
   preview: 'images/qhunt.png'
   },
   {
   title: 'Chalmun\'s Cantina',
   liveLink: 'https://www.url.com',
   githubLink: 'https://github.com/hone/chalmuns-cantina',
-  desc: 'An Ember.js App built to automate the AI deck for Star Wars Outer Rim board game.',
+  desc: 'Web app that is built using Ember and Javascript for Star Wars: Outter Rim.',
   preview: 'images/chaul.png'
   }
 ]
