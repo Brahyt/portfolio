@@ -8,20 +8,20 @@ const tinkeringStuff = [
   alt: 'Screenshot of the a bookmarking app that I made in Jquery and Javascript.'
   },
   {
-  title: 'Quiz Hunter',
-  liveLink: 'https://thinkful-ei-heron.github.io/Mike-DanielB-quiz-hunter/',
-  githubLink: 'https://github.com/thinkful-ei-heron/Mike-DanielB-quiz-hunter/',
-  desc: 'A singlepage Javascript app that utilized jquery, HTML and CSS to create a quiz app',
+  title: 'Quendi - Spaced Repetition',
+  liveLink: 'https://www.quendi.app',
+  githubLink: 'https://github.com/thinkful-ei-heron/Spaced-Rep-Andrea-DanB-Server',
+  desc: 'Full stack Javascript web app built in React, Express and Node  utilizing Linked List data structure and a SQL database',
   preview: 'images/qhunt.png',
-  alt: 'Image of an app I call quiz hunter.  I built this in Javascript and HTML with CSS.'
+  alt: 'Green background website with lists of words to learn.'
   },
   {
-  title: 'Chalmun\'s Cantina',
-  liveLink: 'https://www.url.com',
-  githubLink: 'https://github.com/hone/chalmuns-cantina',
-  desc: 'Web app that is built using Ember and Javascript for Star Wars: Outter Rim.',
+  title: 'Danger Room',
+  liveLink: 'https://danger-room.herokuapp.com/situation',
+  githubLink: 'https://github.com/hone/danger-room',
+  desc: 'Web app that is built using Ember.js and Javascript for the Marvel Champions Card Game',
   preview: 'images/chaul.png',
-  alt: 'Image of an app I call Chalmuns Cantina. I built it in Ember.'
+  alt: 'Website screenshot of Danger Room.'
   }
 ]
 
