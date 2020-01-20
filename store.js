@@ -1,18 +1,18 @@
 const tinkeringStuff = [
   {
-  title: 'BookMarking App',
+  title: 'Weyr Alliance',
   liveLink: 'https://thinkful-ei-heron.github.io/bookmark-app-danielb/',
   githubLink: 'https://github.com/thinkful-ei-heron/bookmark-app-danielb',
-  desc: 'Bookmarking App that utilizes Jquery and Javascript with communicate with an API to store and manage data in the form of a bookmark. ',
-  preview: 'images/bookmarks.png',
+  desc: 'Charactor/Party managment for dragonfire game. Built in React, Express.js, Node.js, and SQL. ',
+  preview: 'images/weyr.png',
   alt: 'Screenshot of the a bookmarking app that I made in Jquery and Javascript.'
   },
   {
   title: 'Quendi - Spaced Repetition',
   liveLink: 'https://www.quendi.app',
   githubLink: 'https://github.com/thinkful-ei-heron/Spaced-Rep-Andrea-DanB-Server',
-  desc: 'Full stack Javascript web app built in React, Express and Node  utilizing Linked List data structure and a SQL database',
-  preview: 'images/qhunt.png',
+  desc: 'Full stack Javascript web app built in React, Express and Node utilizing Linked List data structure and a SQL database. Built with a collaboration with 1 another person.',
+  preview: 'images/quendi.png',
   alt: 'Green background website with lists of words to learn.'
   },
   {
@@ -20,7 +20,7 @@ const tinkeringStuff = [
   liveLink: 'https://danger-room.herokuapp.com/situation',
   githubLink: 'https://github.com/hone/danger-room',
   desc: 'Web app that is built using Ember.js and Javascript for the Marvel Champions Card Game',
-  preview: 'images/chaul.png',
+  preview: 'images/danger.png',
   alt: 'Website screenshot of Danger Room.'
   }
 ]
