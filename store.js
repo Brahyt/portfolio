@@ -11,7 +11,8 @@ const tinkeringStuff = [
   {
   title: 'Quendi - Spaced Repetition',
   liveLink: 'https://www.quendi.app',
-  githubLink: 'https://github.com/thinkful-ei-heron/Spaced-Rep-Andrea-DanB-Server',
+  githubLink: 'https://github.com/thinkful-ei-heron/Spaced-Rep-Andrea-DanB-Client',
+  githubLink2: 'https://github.com/thinkful-ei-heron/Spaced-Rep-Andrea-DanB-Server',
   desc: 'Full stack Javascript web app built in React, Express and Node utilizing Linked List data structure and a SQL database. Built with a collaboration with another person.',
   preview: 'images/quendi.png',
   alt: 'Green background website with lists of words to learn.'
@@ -20,10 +21,12 @@ const tinkeringStuff = [
   title: 'Danger Room',
   liveLink: 'https://danger-room.herokuapp.com/situation',
   githubLink: 'https://github.com/hone/danger-room',
+  githubLink: 'https://github.com/hone/danger-room',
   desc: 'Web app that is built using Ember.js and Javascript for the Marvel Champions Card Game',
   preview: 'images/danger.png',
   alt: 'Orange background with marvel characters, with overlay website with options.'
-  }
+  },
+
 ]
 
 const tinkerSnippit = function(tinkerObj) {
@@ -38,8 +41,8 @@ const tinkerSnippit = function(tinkerObj) {
         </div>
         <div class="tinker-item-buttons">
           <a href="${tinkerObj.liveLink}" target="_blank"><button>Live!</button></a>
-          <a href="${tinkerObj.githubLink}" target="_blank"><button>Repo 1</button></a>
-          <a href="${tinkerObj.githubLink2}" target="_blank"><button>Repo 2</button></a>
+          <a href="${tinkerObj.githubLink}" target="_blank"><button>Client</button></a>
+          <a href="${tinkerObj.githubLink2}" target="_blank"><button>Server</button></a>
         </div>
         <div class="tinker-disc">
           <p>${tinkerObj.desc}</p>
