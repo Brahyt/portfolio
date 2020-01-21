@@ -1,31 +1,50 @@
 const tinkeringStuff = [
   {
-  title: 'Dragon Fire app',
-  liveLink: 'https://www.weyr-alliance.com/',
-  githubLink1: 'https://github.com/thinkful-ei-heron/bookmark-app-danielb',
-  githubLink2: '',
-  desc: 'A party managment tool for the card game Dragon Fire.  Built in React, Node/Express, utilizing a postgresql database.',
-  preview: 'images/bookmarks.png',
-  alt: 'Screenshot of the a bookmarking app that I made in Jquery and Javascript.'
+  title: 'weyr alliance',
+  liveLink: 'https://wery-alliance.com',
+  githubLink: 'https://github.com/brahyt/weyr-client',
+  githubLink2: 'https://github.com/brahyt/weyr-server',
+  desc: 'charactor/party managment for dragonfire game. built in react, express.js, node.js, and sql. ',
+  preview: 'images/weyr.png',
+  alt: 'screenshot of the a bookmarking app that i made in jquery and javascript.'
   },
   {
   title: 'Quendi - Spaced Repetition',
   liveLink: 'https://www.quendi.app',
-  githubLink1: 'https://github.com/thinkful-ei-heron/Spaced-Rep-Andrea-DanB-Server',
-  githubLink2: '',
-  desc: 'Full stack Javascript web app built in React, Express and Node utilizing Linked List data structure and a SQL database',
-  preview: 'images/qhunt.png',
+  githubLink: 'https://github.com/thinkful-ei-heron/Spaced-Rep-Andrea-DanB-Client',
+  githubLink2: 'https://github.com/thinkful-ei-heron/Spaced-Rep-Andrea-DanB-Server',
+  desc: 'Full stack Javascript web app built in React, Express and Node utilizing Linked List data structure and a SQL database. Built with a collaboration with another person.',
+  preview: 'images/quendi.png',
   alt: 'Green background website with lists of words to learn.'
   },
   {
   title: 'Danger Room',
   liveLink: 'https://danger-room.herokuapp.com/situation',
-  githubLink1: 'https://github.com/hone/danger-room',
-  githubLink2: '',
+  githubLink: 'https://github.com/hone/danger-room',
+  githubLink2: 'https://github.com/hone/danger-room',
   desc: 'Web app that is built using Ember.js and Javascript for the Marvel Champions Card Game',
+  preview: 'images/danger.png',
+  alt: 'Orange background with marvel characters, with overlay website with options.'
+  },
+  {
+  title: 'Chaulmans Cantina',
+  liveLink: 'https://chalmuns-cantina.herokuapp.com/',
+  githubLink: 'https://github.com/hone/chalmuns-cantina',
+  githubLink2: 'https://github.com/hone/chalmuns-cantina',
+  desc: 'Web app that creates an AI deck for Star Wars Outer Rim card game. Built in Ember.js and Javascript ',
   preview: 'images/chaul.png',
-  alt: 'Website screenshot of Danger Room.'
-  }
+  alt: 'black screen with purple icons with star wars characters, one in color because it is being selected'
+  },
+  {
+  title: 'IE Culinary Apprentice',
+  liveLink: 'https://ieculinaryapprentice.com/',
+  githubLink: 'https://github.com/Brahyt/ieculinary',
+  githubLink2: 'https://github.com/Brahyt/ieculinary',
+  desc: 'Webapp built on Ruby on Rails. Used for a culinary apprenticeship program to attract new mentors and apprentices. ',
+  preview: 'images/cul.png',
+  alt: 'blue kitchen image with students working in a kitchen.'
+  },
+
 ]
 
 const tinkerSnippit = function(tinkerObj) {
@@ -40,14 +59,15 @@ const tinkerSnippit = function(tinkerObj) {
         </div>
         <div class="tinker-item-buttons">
           <a href="${tinkerObj.liveLink}" target="_blank"><button>Live!</button></a>
-          <a href="${tinkerObj.githubLink}" target="_blank"><button>Repo</button></a>
+          <a href="${tinkerObj.githubLink}" target="_blank"><button>Client</button></a>
+          <a href="${tinkerObj.githubLink2}" target="_blank"><button>Server</button></a>
         </div>
         <div class="tinker-disc">
           <p>${tinkerObj.desc}</p>
         </div>
       </div>
     </div>
-  ` 
+ ` 
 }
 
 const generateTinkerSnippit = function() {
