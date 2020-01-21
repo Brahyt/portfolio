@@ -2,8 +2,8 @@ const tinkeringStuff = [
   {
   title: 'weyr alliance',
   liveLink: 'https://wery-alliance.com',
-  githublink: 'https://github.com/brahyt/weyr-client',
-  githublink2: 'https://github.com/brahyt/weyr-server',
+  githubLink: 'https://github.com/brahyt/weyr-client',
+  githubLink2: 'https://github.com/brahyt/weyr-server',
   desc: 'charactor/party managment for dragonfire game. built in react, express.js, node.js, and sql. ',
   preview: 'images/weyr.png',
   alt: 'screenshot of the a bookmarking app that i made in jquery and javascript.'
@@ -29,8 +29,8 @@ const tinkeringStuff = [
   {
   title: 'Chaulmans Cantina',
   liveLink: 'https://chalmuns-cantina.herokuapp.com/',
-  githublink: 'https://github.com/hone/chalmuns-cantina',
-  githublink2: 'https://github.com/hone/chalmuns-cantina',
+  githubLink: 'https://github.com/hone/chalmuns-cantina',
+  githubLink2: 'https://github.com/hone/chalmuns-cantina',
   desc: 'Web app that creates an AI deck for Star Wars Outer Rim card game. Built in Ember.js and Javascript ',
   preview: 'images/chaul.png',
   alt: 'black screen with purple icons with star wars characters, one in color because it is being selected'
@@ -38,8 +38,8 @@ const tinkeringStuff = [
   {
   title: 'IE Culinary Apprentice',
   liveLink: 'https://ieculinaryapprentice.com/',
-  githublink: 'https://github.com/Brahyt/ieculinary',
-  githublink2: 'https://github.com/Brahyt/ieculinary',
+  githubLink: 'https://github.com/Brahyt/ieculinary',
+  githubLink2: 'https://github.com/Brahyt/ieculinary',
   desc: 'Webapp built on Ruby on Rails. Used for a culinary apprenticeship program to attract new mentors and apprentices. ',
   preview: 'images/cul.png',
   alt: 'blue kitchen image with students working in a kitchen.'
