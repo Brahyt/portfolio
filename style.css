@@ -47,7 +47,7 @@ header {
 }
 
 section {
-  margin:  auto 0 auto;
+  margin: auto 0 auto;
   min-height: 200px;
   padding: 3% 10%;
 }
@@ -60,13 +60,13 @@ li {
 h1 {
   font-color: #2f332e;
   font-size: 5rem;
-  letter-spacing: .8rem; 
+  letter-spacing: 0.8rem;
 }
 
 h2 {
   font-color: #2f332e;
   font-size: 3rem;
-  letter-spacing: .7rem;
+  letter-spacing: 0.7rem;
 }
 
 a {
@@ -74,7 +74,7 @@ a {
   text-decoration: none;
 }
 
-a:visited{
+a:visited {
   color: black;
 }
 
@@ -84,13 +84,13 @@ a:link {
 
 a:hover {
   cursor: default;
-	color: #b5d5e6; 
+  color: #b5d5e6;
 }
 
 .brand {
   font-size: 2rem;
   margin: 0 auto 0 auto;
-  letter-spacing: .7rem;
+  letter-spacing: 0.7rem;
 }
 
 .clear {
@@ -103,22 +103,19 @@ a:hover {
 }
 
 .contacts {
- display: flex;
- justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .contacts img {
   width: 40px;
 }
 
-#me>div {
+#me > div {
   margin: 0 auto 0 auto;
   width: 48%;
   text-align: center;
 }
-
-
-
 
 /***********************
 *Tinker Container Stuff*
@@ -133,8 +130,8 @@ a:hover {
 
 .tinker-item {
   width: 300px;
-  margin: .5%;
-  background-color: rgba(255, 255, 255, .5);
+  margin: 0.5%;
+  background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid white;
   border-radius: 20px;
 }
@@ -145,24 +142,23 @@ a:hover {
   border-radius: 20px 20px 0 0;
 }
 
-
 .tinker-title {
   padding: 0px;
   text-align: center;
 }
 
-.tinker-title>h4 {
+.tinker-title > h4 {
   margin: 4% 0 4% 0;
 }
 
 .tinker-item-buttons {
+  font-size: 75%;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
 }
 
-.tinker-item-buttons>button {
-  margin: 0;
+.tinker-item-buttons > button {
   margin: 1% 0 1% 0;
 }
 
@@ -171,18 +167,18 @@ a:hover {
   padding: 5% 7% 5% 7%;
 }
 
-.tinker-disc>p {
+.tinker-disc > p {
   margin: 0;
   font-size: 1.2rem;
 }
 @media only screen and (min-width: 1000px) {
   .nav-colored {
-   	background-color: rgb(255,255,255);
-		transition: background-color 1s;
+    background-color: rgb(255, 255, 255);
+    transition: background-color 1s;
   }
-	.nav-trans {
-		background-color: none;
-		transition: background-color 1s;
+  .nav-trans {
+    background-color: none;
+    transition: background-color 1s;
   }
 }
 
@@ -244,7 +240,7 @@ a:hover {
     width: 300px;
     margin: 10px 0 10px 0;
   }
-  
+
   section {
     text-align: center;
   }
@@ -257,11 +253,10 @@ a:hover {
     padding: 0;
     margin: 0 auto 0 auto;
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
   }
-  #me>div {
+  #me > div {
     margin: 0 auto 0 auto;
     width: 90%;
   }
-
 }
