@@ -1,12 +1,12 @@
 const tinkeringStuff = [
   {
-  title: 'Weyr Alliance',
-  liveLink: 'https://wery-alliance.com',
-  githubLink: 'https://github.com/Brahyt/weyr-client',
-  githubLink2: 'https://github.com/Brahyt/weyr-server',
-  desc: 'Charactor/Party managment for dragonfire game. Built in React, Express.js, Node.js, and SQL. ',
+  title: 'weyr alliance',
+  livelink: 'https://wery-alliance.com',
+  githublink: 'https://github.com/brahyt/weyr-client',
+  githublink2: 'https://github.com/brahyt/weyr-server',
+  desc: 'charactor/party managment for dragonfire game. built in react, express.js, node.js, and sql. ',
   preview: 'images/weyr.png',
-  alt: 'Screenshot of the a bookmarking app that I made in Jquery and Javascript.'
+  alt: 'screenshot of the a bookmarking app that i made in jquery and javascript.'
   },
   {
   title: 'Quendi - Spaced Repetition',
@@ -25,6 +25,24 @@ const tinkeringStuff = [
   desc: 'Web app that is built using Ember.js and Javascript for the Marvel Champions Card Game',
   preview: 'images/danger.png',
   alt: 'Orange background with marvel characters, with overlay website with options.'
+  },
+  {
+  title: 'Chaulmans Cantina',
+  livelink: 'https://chalmuns-cantina.herokuapp.com/',
+  githublink: 'https://github.com/hone/chalmuns-cantina',
+  githublink2: 'https://github.com/hone/chalmuns-cantina',
+  desc: 'Web app that creates an AI deck for Star Wars Outer Rim card game. Built in Ember.js and Javascript ',
+  preview: 'images/chaul.png',
+  alt: 'black screen with purple icons with star wars characters, one in color because it is being selected'
+  },
+  {
+  title: 'IE Culinary Apprentice',
+  livelink: 'https://ieculinaryapprentice.com/',
+  githublink: 'https://github.com/Brahyt/ieculinary',
+  githublink2: 'https://github.com/Brahyt/ieculinary',
+  desc: 'Webapp built on Ruby on Rails. Used for a culinary apprenticeship program to attract new mentors and apprentices. ',
+  preview: 'images/cul.png',
+  alt: 'blue kitchen image with students working in a kitchen.'
   },
 
 ]
