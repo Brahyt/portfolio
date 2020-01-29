@@ -4,7 +4,7 @@ const tinkeringStuff = [
   liveLink: 'https://social-playlist.netlify.com',
   githubLink: 'https://github.com/thinkful-ei-heron/SocialPlaylist-Client',
   githubLink2: 'https://github.com/thinkful-ei-heron/SocialPlaylist-server',
-    desc: 'A 5 person group project Mobile app, built in React, Node/Express, and Postgresql, leveraging Maps and GeoData services from Google. Live List is an app to find new things to do based on your location and likes.',
+    desc: 'A 5 person group project Mobile app, built in <b>React</b>, Node/Express, and Postgresql, leveraging Maps and GeoData services from Google. Live List is an app to find new things to do based on your location and likes.',
   preview: 'images/ll.png',
   alt: 'mobile design for website that contains a list of places with choices for ramen.'
   },
