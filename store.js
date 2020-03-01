@@ -26,24 +26,24 @@ const tinkeringStuff = [
   preview: 'images/quendi.png',
   alt: 'Green background website with lists of words to learn.'
   },
-  {
-  title: 'Danger Room',
-  liveLink: 'https://danger-room.herokuapp.com/situation',
-  githubLink: 'https://github.com/hone/danger-room',
-  githubLink2: 'https://github.com/hone/danger-room',
-  desc: 'Web app that is built using Ember.js and Javascript for the Marvel Champions Card Game',
-  preview: 'images/danger.png',
-  alt: 'Orange background with marvel characters, with overlay website with options.'
-  },
-  {
-  title: 'Chaulmans Cantina',
-  liveLink: 'https://chalmuns-cantina.herokuapp.com/',
-  githubLink: 'https://github.com/hone/chalmuns-cantina',
-  githubLink2: 'https://github.com/hone/chalmuns-cantina',
-  desc: 'Web app that creates an AI deck for Star Wars Outer Rim card game. Built in Ember.js and Javascript ',
-  preview: 'images/chaul.png',
-  alt: 'black screen with purple icons with star wars characters, one in color because it is being selected'
-  },
+    //  {
+    //  title: 'Danger Room',
+    //  liveLink: 'https://danger-room.herokuapp.com/situation',
+    //  githubLink: 'https://github.com/hone/danger-room',
+    //  githubLink2: 'https://github.com/hone/danger-room',
+    //  desc: 'Web app that is built using Ember.js and Javascript for the Marvel Champions Card Game',
+    //  preview: 'images/danger.png',
+    //  alt: 'Orange background with marvel characters, with overlay website with options.'
+    //  },
+    //  {
+    //  title: 'Chaulmans Cantina',
+    //  liveLink: 'https://chalmuns-cantina.herokuapp.com/',
+    //  githubLink: 'https://github.com/hone/chalmuns-cantina',
+    //  githubLink2: 'https://github.com/hone/chalmuns-cantina',
+    //  desc: 'Web app that creates an AI deck for Star Wars Outer Rim card game. Built in Ember.js and Javascript ',
+    //  preview: 'images/chaul.png',
+    //  alt: 'black screen with purple icons with star wars characters, one in color because it is being selected'
+    //  },
   {
   title: 'IE Culinary Apprentice',
   liveLink: 'https://ieculinaryapprentice.com/',
