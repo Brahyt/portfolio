@@ -6,7 +6,7 @@ const tinkeringStuff = [
     githubLink2: 'https://github.com/Brahyt/chomply-client',
     desc:
       'Web app that enables the user to find a recipe without sorting through various websites and irrelevant foods using ingredients they have on hand. Using Javascript, React, and Material UI',
-    preview: 'images/ll.png',
+    preview: 'images/chomply.png',
     alt:
       'screenshot of chomply app.',
   },
